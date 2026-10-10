@@ -1,0 +1,48 @@
+:host{
+    width: 100%;
+    height: 100%;
+}
+.main-menu{
+    width: auto;
+    height: 100%;
+    background: #eee;
+
+    mat-sidenav{
+        width: 20%;
+        background-color: #232427;
+        border-radius: 0px;
+        .menu-list-content{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+    
+            a{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+                border-radius: 5px;
+    
+                &.active{
+                    background: #46484e;
+                }
+    
+                &:hover{
+                    background: #46484e;
+                }
+
+                span{
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    color: #fff;
+                    mat-icon{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

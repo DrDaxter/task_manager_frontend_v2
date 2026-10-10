@@ -1,0 +1,11 @@
+.proj-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card-content{
+        width: 20%;
+    }
+}
